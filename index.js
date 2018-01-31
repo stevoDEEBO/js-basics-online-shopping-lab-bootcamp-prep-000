@@ -31,6 +31,9 @@ function viewCart() {
   }
   
   else {
+    addToCart("orange");
+    addToCart("pear");
+    addToCart("quince");
     var items = []
     for (let i = 0; i < cart.length-1; i++) {
     items.push(`${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}`)

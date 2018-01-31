@@ -30,7 +30,7 @@ function viewCart() {
     console.log("In your cart, you have " + Object.keys(cart[0]) + " at $" + cart[0][Object.keys(cart[0])] + " and " + Object.keys(cart[1]) + " at $" + cart[1][Object.keys(cart[1])] + ".")
   }
   
-  else if (cart.length > 2) {
+  else {
     var items = []
     for (let i = 0; i < cart.length-1; i++) {
     items.push(`${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}`)

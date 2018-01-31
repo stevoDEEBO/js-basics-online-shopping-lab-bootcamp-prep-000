@@ -41,7 +41,7 @@ function viewCart() {
     
     var threeItems = `In your cart, you have ${items}, and ${Object.keys(cart[cart.length-1])} at $${cart[cart.length-1][Object.keys(cart[cart.length-1])]}.`
     
-    return threeItems
+    console.log(threeItems)
   //}
 }
 

@@ -37,7 +37,7 @@ function viewCart() {
     items.push(` ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}`)
     }
     
-    var threeItems = `In your cart, you have ${items}, and ${Object.keys(cart[cart.length-1])} at $${cart[cart.length-1][Object.keys(cart[cart.length-1])]}.`
+    var threeItems = `In your cart, you have${items}, and ${Object.keys(cart[cart.length-1])} at $${cart[cart.length-1][Object.keys(cart[cart.length-1])]}.`
     
     console.log(threeItems)
   }
